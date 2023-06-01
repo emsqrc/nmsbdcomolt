@@ -1,0 +1,36 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit9.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm9 *Form9;
+//---------------------------------------------------------------------------
+
+bool e=false;
+
+AnsiString getFileName(AnsiString path){
+ Form9->Edit1->Text=path;
+ e=false;
+ Form9->ShowModal();
+ if(e) return Form9->Edit1->Text;
+ else return "";
+
+}
+
+__fastcall TForm9::TForm9(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm9::Button1Click(TObject *Sender)
+{
+        e=true;
+        Form9->Close();        
+}
+//---------------------------------------------------------------------------

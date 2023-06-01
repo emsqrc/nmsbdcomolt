@@ -1,0 +1,36 @@
+object Form7: TForm7
+  Left = 662
+  Top = 184
+  Width = 564
+  Height = 425
+  Caption = #1058#1077#1088#1084#1110#1085#1072#1083
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 548
+    Height = 387
+    Align = alClient
+    BorderStyle = bsNone
+    Color = clBlack
+    Ctl3D = False
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+end

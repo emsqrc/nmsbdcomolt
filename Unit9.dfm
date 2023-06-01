@@ -1,0 +1,40 @@
+object Form9: TForm9
+  Left = 498
+  Top = 331
+  BorderStyle = bsDialog
+  Caption = #1060#1072#1081#1083
+  ClientHeight = 72
+  ClientWidth = 236
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Edit1: TEdit
+    Left = 8
+    Top = 8
+    Width = 217
+    Height = 24
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 144
+    Top = 40
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
