@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit17H
+#define Unit17H
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ComCtrls.hpp>
+#include <ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TForm17 : public TForm
+{
+__published:	// IDE-managed Components
+        TTimer *Timer1;
+        TLabel *Label1;
+private:	// User declarations
+public:		// User declarations
+        __fastcall TForm17(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm17 *Form17;
+//---------------------------------------------------------------------------
+#endif
